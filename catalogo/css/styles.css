@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Adicional */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+
+}
+
+.header-link{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.contenedorheader {
+    display: flex;
+    align-items: center;
+}
+
+#creditCardImage {
+    margin-left: 10px;
+    width: 30px;
+}
+
+/* Sección de Fondo */
+.contenedor0 {
+    background-image: url('/catalogo/img/Maybach with darker colors (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-top: 550px;
+    margin-bottom: 20px;
+    font-size: 92px;
+    font-weight: 900;
+    color: #FFF3E1;
+}
+
+/* Botones */
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: 900;
+    border: 5px solid white;
+    background: none;
+    border-radius: 76px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+/* Header Adicional */
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-link-2 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.contenedorheader-2 {
+    display: flex;
+    align-items: center;
+}
+
+/* Contenedor de Letras */
+.contenedorheader-3 {
+    background-color: #000;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.letter {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.selected-letter {
+    background-color: white;
+    color: black;
+}
+
+/* catalogo */
+.contenedor1 {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre columnas */
+    justify-content: center; /* Centra las columnas */
+}
+
+.contenedor1-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 20px); /* Dos columnas, restando el espacio de gap */
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.contenedor1-item img {
+    width: 100%; /* Ajusta el ancho de las imágenes para que ocupen el contenedor */
+    max-width: 45vw; /* Máximo ancho relativo a la ventana */
+    max-height: 300px; /* Máxima altura para las imágenes */
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor sin recortar */
+    border: 2px solid #000; /* Borde para las imágenes */
+    border-radius: 4px;
+}
+
+.contenedor1-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left; /* Centra el texto */
+}
